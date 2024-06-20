@@ -1,0 +1,200 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url('/img/2.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3vh;
+}
+
+.nav-bar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 20vh; 
+  max-height: auto; 
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+.btn {
+  padding: 1vh 1vh;
+  padding: right 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+
+.sign-in {
+  background-color: #68c0b7; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-in:hover {
+  background-color: #6ba6a0;
+}
+
+.sign-up {
+  background-color: #008CBA; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-up:hover {
+  background-color: #176782;
+}
+
+.banner {
+  display: flex;
+} 
+
+.banner .banner-text{
+  margin: 150px 3px 150px 3px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  
+}
+
+.banner .banner-text h1 {
+  font-size: 7vh;
+  color: #153844;
+  text-align: center;
+}
+
+.banner .banner-text p {
+  font-size: 20px;
+  color: #1d4f5f;
+  font-weight: lighter;
+  margin: 18px 0;
+  text-align: center;
+}
+
+.banner-foto{
+  padding: 100px 0 100px 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foto{
+  max-width: 50vh; 
+}
+
+
+.corpo-login{
+  display: flex;
+}
+
+.container_login {
+  display: flex;
+  align-items: center;
+}
+
+.corpo_texto {
+  margin: 10px 1px 10px 50px;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+}
+
+.container_corpo_login {
+  color: white;
+  display: flex;
+  padding: 150px 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #92d5cf;
+}
+
+.vertical-line {
+  border-left: 2px solid #ffffff; /* Cor e espessura da linha */
+  height: 200px; /* Altura da linha */
+  margin-left: 10px;
+}
+
+.corpo-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.formulario .form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+.form input {
+  text-align: center;
+  margin: 0.5em;
+  padding: 1vh 1vh;
+  padding: right 0;
+  font-size: 0.9em;
+  background-color: #68c0b7; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.footer {
+  background-color: #92d5cf;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
