@@ -198,3 +198,52 @@ header {
   text-align: center;
   font-size: 14px;
 }
+
+.body_home{
+  width: 100%;
+  padding: 10vh 10vh;
+  background-color: #153844;;
+  /* background-color: #395553; */
+  /* background-color: #22403d; */
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.espelho_cabecalho{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #6ba6a0;
+  /* #4ea296; */
+  padding: 2vh;
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+}
+
+.espelho_titulo{
+  color: #ddd;
+}
+
+.btn_espelho{
+  color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.cadastro-table-container {
+  width: 100%;
+  width: 80vh; 
+  height: 75vh;   
+  overflow: auto;   /* Adiciona o scroll */
+  border: 1px solid #ddd; /* Opcional: adiciona uma borda ao contêiner */
+  border-radius: 0 0 5px 5px;
+}
+
+ .cadastro_logo {
+  background-color: #c2e9e5;;
+}
