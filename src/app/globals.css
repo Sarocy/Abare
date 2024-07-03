@@ -202,9 +202,18 @@ header {
 .body_home{
   width: 100%;
   padding: 10vh 10vh;
-  background-color: #153844;;
+  background-color: #153844;
   /* background-color: #395553; */
   /* background-color: #22403d; */
+}
+
+.body_aluno{
+  width: 100%;
+  padding: 5vh 5vh;
+  background-color: #c2e9e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home{
@@ -245,5 +254,110 @@ header {
 }
 
  .cadastro_logo {
-  background-color: #c2e9e5;;
+  background-color: #c2e9e5;
+}
+
+.menu_opcoes{
+  padding: 10vh 10vh;
+  background-color: #c2e9e5;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+}
+  
+
+.btn_menu_opcoes {
+  background-color: #6ba6a0;
+  color: #ffffff;
+  border: 2px solid #19404d;
+  border-radius: 5px;
+  padding: 1vh;
+  margin: 0 8vh 0 8vh;
+}
+
+.horizontal-line {
+  /* width: 100%;  */
+  height: 2px; /* Ajusta a altura da linha */
+  background-color: #333; /* Cor da linha */
+  margin: 3vh 8vh 3vh 8vh; /* Margem acima e abaixo da linha */
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+
+}
+
+.btn_pagina {
+  background-color: #153844;
+  color: #ffffff;
+  border: 2px solid #19404d;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.escopo {
+  width: 180vh;  
+  height: auto;   
+  border: 1px solid #000000; 
+  border-radius: 5px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #19404d;
+  padding: 20px;
+
+}
+
+.cadastro-tabela {
+  /* width: 100%; */
+  border-collapse: collapse;
+  background-color: #19404d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-tabela td {
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+}
+
+.cadastro-tabela label {
+  font-weight: bold;
+  color: #ddd;
+}
+
+.cadastro-tabela input,
+.cadastro-tabela select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6ba6a0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.cabecalho{
+  display: flex;
+  align-items: center;
+}
+
+.submit-button_container {
+  display: flex;
+  justify-content: center;
 }
