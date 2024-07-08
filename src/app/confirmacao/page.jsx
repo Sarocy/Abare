@@ -1,6 +1,11 @@
-import  React from 'react';
+"use client";
+
+import React from 'react';
+import { useFormData } from '../../../context/FormDataContext';
+  
 
 const Confirmacao = () => {
+    const { formData } = useFormData();
   return (
     <>
     <div className="logo-container cadastro_logo">
@@ -27,8 +32,9 @@ const Confirmacao = () => {
             </div>
         </div>
         <div className='escopo'>
-
+            
         </div>
+        
         </div>
 
         <footer className="footer">
